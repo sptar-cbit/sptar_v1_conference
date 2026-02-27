@@ -2,7 +2,7 @@
 Train a Bi-Encoder (DPR-style) using MultipleNegativesRankingLoss.
 Optionally performs a simple REINFORCE fine-tuning stage.
 
-Example:
+Example :
 python train_sbert.py --dataset_name msmarco --use_basic_rl --rl_steps 1000
 '''
 
